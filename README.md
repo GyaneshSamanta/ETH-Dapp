@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# ETH Dapp (Decentralized Application)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+A blockchain-based decentralized application built on the Ethereum network using the Hardhat development environment.
 
-Try running some of the following tasks:
+## Technologies
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+- **Solidity**: Smart contract development.
+- **Hardhat**: Local development, testing, and deployment framework.
+- **Ethers.js/Web3.js**: Blockchain interaction library.
+- **React**: Web interface for the Dapp.
+
+## Development Workflow
+
+1. Install dependencies: `npm install`
+2. Compile contracts: `npx hardhat compile`
+3. Run tests: `npx hardhat test`
+4. Deploy: `npx hardhat run scripts/deploy.js`

@@ -1,17 +1,16 @@
-# ETH Dapp (Decentralized Application)
+# Ethereum Decentralized Application (Dapp)
 
-A blockchain-based decentralized application built on the Ethereum network using the Hardhat development environment.
+A blockchain-based application built on the Ethereum network using the Hardhat development environment.
 
-## Technologies
+## Technologies Used
 
-- **Solidity**: Smart contract development.
-- **Hardhat**: Local development, testing, and deployment framework.
-- **Ethers.js/Web3.js**: Blockchain interaction library.
-- **React**: Web interface for the Dapp.
+- **Smart Contracts**: Solidity
+- **Environment**: Hardhat (Development, testing, and deployment)
+- **Library**: Ethers.js
+- **Frontend**: React.js
 
-## Development Workflow
+## Workflow
 
-1. Install dependencies: `npm install`
-2. Compile contracts: `npx hardhat compile`
-3. Run tests: `npx hardhat test`
-4. Deploy: `npx hardhat run scripts/deploy.js`
+1. `npx hardhat target` (Compile)
+2. `npx hardhat test` (Unit Testing)
+3. `npx hardhat run scripts/deploy.js` (Deployment)
